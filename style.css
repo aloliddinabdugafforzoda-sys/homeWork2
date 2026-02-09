@@ -266,7 +266,86 @@
     margin-top: 5px;
     
 }
+.sec6{
+    width: 90%;
+    height: 480px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.sec6part1{
+    width: 25%;
+    height: 100%;
+   
+    padding: 15px;
+    border: 1px solid black;
+}
+.pdol{
+    font-size: 20px;
+    font-weight: 800;
+    margin-top: 10px;
+
+}
+.p49{
+    font-size: 80px;
+    font-weight: 800;
+   
+}
+.p3x{
+    width: 80%;
+    display: flex;
+   
+}
+.per{
+    margin-top: 55px;
+}
+.pApay{
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.divThe{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+.divThe1{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 40px;
+}
+.btnJoin{
+    width: 320px;
+    height: 35px;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    font-weight: 600;
+    margin-top: 100px;
+
+}
+.lol{
+    color: white;
+}
+.kok{
+    background-color: black;
+}
+.l1{
+    background-color: #fff;
+    color: black;
+}
 @media (max-width:510px){
+    .sec6part1{
+        width: 90%;
+
+    }
+    .sec6{
+        flex-direction: column;
+        gap: 30px;
+    }
     .pSelect{
         text-align: start;
     }
